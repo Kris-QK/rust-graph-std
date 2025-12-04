@@ -9,7 +9,7 @@
 
 **The first complete, structural Knowledge Graph of the Rust Standard Library (v1.89.0).**
 
-[ **Live Demo** ](https://https://rustkg.one) | [ **Download Data** ](data/dist/rust-std-1.89.0.nt.gz) | [ **Enterprise Services** ](#-enterprise--ecosystem-services)
+[ **Live Demo** ](https://rustkg.one) | [ **Download Data** ](data/dist/rust-std-1.89.0.nt.gz) | [ **Enterprise Services** ](#-enterprise--ecosystem-services)
 
 </div>
 
@@ -62,6 +62,7 @@ We provide ready-to-use scripts in the `examples/` folder.
 # 1. Install dependencies (None! Standard lib only)
 # 2. Run the demo
 python3 examples/2_find_traits.py
+
 Graph Database
 You can import the .nt.gz file directly into Oxigraph, Neo4j (via n10s), or Apache Jena.
 
