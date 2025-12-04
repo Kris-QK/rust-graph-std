@@ -1,0 +1,11 @@
+
+[package]
+name = "std-slicer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 用于生成 .gz 文件，这是处理大数据的标准姿势
+flate2 = "1.0"
