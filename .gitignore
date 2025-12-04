@@ -1,0 +1,16 @@
+# --- Rust 标准忽略 ---
+/target
+Cargo.lock
+
+# --- 数据安全忽略 (核心) ---
+# 忽略 data 目录下的一切...
+data/*
+# ...但是不忽略 data/dist 目录下的 .gz 文件 (这是我们要发布的)
+!data/dist/*.gz
+# ...也不忽略 data 目录下的占位文件 (保持目录结构)
+!data/.keep
+
+# --- IDE 忽略 ---
+.vscode/
+.idea/
+*.swp
