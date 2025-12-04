@@ -62,39 +62,54 @@ We provide ready-to-use scripts in the `examples/` folder.
 # 1. No extra dependencies required (Standard lib only)
 # 2. Run the demo
 python3 examples/2_find_traits.py
-Graph Database
-You can import the .nt.gz file directly into Oxigraph, Neo4j (via n10s), or Apache Jena.
+````
 
-💼 Enterprise & Ecosystem Services
-Need more than just std? RustMind Labs offers professional services for the full Rust ecosystem.
+### Graph Database
 
-1. Full Ecosystem Graph ($$)
-Access knowledge graphs for top crates like Tokio, Axum, Serde, Bevy, etc.
+You can import the `.nt.gz` file directly into **Oxigraph**, **Neo4j** (via n10s), or **Apache Jena**.
 
-Feature: Cross-crate dependency resolution.
+---
 
-Feature: Version diffing (e.g., v1 vs v2 breaking changes).
+## 💼 Enterprise & Ecosystem Services
 
-2. High-Quality LLM Fine-tuning Datasets
-We generate Chain-of-Thought (CoT) Q&A pairs based on this graph logic.
+Need more than just `std`? **RustMind Labs** offers professional services for the full Rust ecosystem.
 
-Perfect for: Training "Code Copilot" models to understand Rust lifetimes and ownership.
+### 1. Full Ecosystem Graph ($$)
 
-Sample: Download 100 sample pairs here (Coming Soon).
+Access knowledge graphs for top crates like **Tokio, Axum, Serde, Bevy**, etc.
 
-3. Private Codebase Analysis (On-Premise)
-Deploy our Extraction Engine as a Docker container in your internal network.
+- **Feature**: Cross-crate dependency resolution.
+    
+- **Feature**: Version diffing (e.g., v1 vs v2 breaking changes).
+    
 
-Analyze your private crates.
+### 2. High-Quality LLM Fine-tuning Datasets
 
-Generate architecture diagrams automatically.
+We generate **Chain-of-Thought (CoT)** Q&A pairs based on this graph logic.
 
-Zero Data Leakage: Your code never leaves your server.
+- **Perfect for**: Training "Code Copilot" models to understand Rust lifetimes and ownership.
+    
+- **Sample**: [Download 100 sample pairs here](https://www.google.com/search?q=%23) _(Coming Soon)_.
+    
 
-👉 Contact us for pricing: leoxiang252@gmail.com
+### 3. Private Codebase Analysis (On-Premise)
 
-📜 License
-Data: CC-BY 4.0 - You can use it commercially, but you must attribute RustMind Labs.
+Deploy our **Extraction Engine** as a Docker container in your internal network.
 
-Tools: MIT - Code in tools/ is open source. EOF
+- Analyze your private crates.
+    
+- Generate architecture diagrams automatically.
+    
+- **Zero Data Leakage**: Your code never leaves your server.
+    
+
+👉 **Contact us for pricing**: `leoxiang252@gmail.com`
+
+---
+
+## 📜 License
+
+- **Data**: [CC-BY 4.0](https://www.google.com/search?q=DATA_LICENSE) - You can use it commercially, but you must attribute **RustMind Labs**.
+    
+- **Tools**: [MIT](https://www.google.com/search?q=LICENSE) - Code in `tools/` is open source.
 
