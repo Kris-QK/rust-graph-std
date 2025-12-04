@@ -9,7 +9,7 @@
 
 **The first complete, structural Knowledge Graph of the Rust Standard Library (v1.89.0).**
 
-[ **Live Demo** ](https://[你的域名]) | [ **Download Data** ](data/dist/rust-std-1.89.0.nt.gz) | [ **Enterprise Services** ](#-enterprise--ecosystem-services)
+[ **Live Demo** ](https://https://rustkg.one) | [ **Download Data** ](data/dist/rust-std-1.89.0.nt.gz) | [ **Enterprise Services** ](#-enterprise--ecosystem-services)
 
 </div>
 
@@ -91,7 +91,7 @@ Generate architecture diagrams automatically.
 
 Zero Data Leakage: Your code never leaves your server.
 
-👉 Contact us for pricing: [你的邮箱]
+👉 Contact us for pricing: [leoxiang252@gmail.com]
 
 📜 License
 Data: CC-BY 4.0 - You can use it commercially, but you must attribute RustMind Labs.
