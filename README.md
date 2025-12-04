@@ -39,7 +39,7 @@ The dataset is surgically sliced to ensure **Zero Copyright Risk** while retaini
 
 ## 📊 Data Manifest (Transparency Report)
 
-We believe in strict data auditing. Here is exactly what you get:
+We believe in strict data auditing. Here is a summary of what you get:
 
 | Count | Predicate | Description |
 | :--- | :--- | :--- |
@@ -51,7 +51,7 @@ We believe in strict data auditing. Here is exactly what you get:
 | **16,798** | `prop:implDisambiguator` | Unique signatures for complex Trait impls. |
 | **9,574** | `prop:hasTraitBound` | `where` clause constraints (The "Logic"). |
 
-*(See `docs/AUDIT_REPORT.md` for full details)*
+*(See [`docs/PREDICATES.md`](docs/PREDICATES.md) for full details)*
 
 ## 🛠️ Quick Start
 
@@ -59,10 +59,9 @@ We believe in strict data auditing. Here is exactly what you get:
 We provide ready-to-use scripts in the `examples/` folder.
 
 ```bash
-# 1. Install dependencies (None! Standard lib only)
+# 1. No extra dependencies required (Standard lib only)
 # 2. Run the demo
 python3 examples/2_find_traits.py
-
 Graph Database
 You can import the .nt.gz file directly into Oxigraph, Neo4j (via n10s), or Apache Jena.
 
@@ -92,9 +91,10 @@ Generate architecture diagrams automatically.
 
 Zero Data Leakage: Your code never leaves your server.
 
-👉 Contact us for pricing: [leoxiang252@gmail.com]
+👉 Contact us for pricing: leoxiang252@gmail.com
 
 📜 License
 Data: CC-BY 4.0 - You can use it commercially, but you must attribute RustMind Labs.
 
-Tools: MIT - Code in tools/ is open source.
+Tools: MIT - Code in tools/ is open source. EOF
+
